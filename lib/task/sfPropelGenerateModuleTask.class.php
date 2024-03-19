@@ -20,6 +20,8 @@ require_once(dirname(__FILE__).'/sfPropelBaseTask.class.php');
  */
 class sfPropelGenerateModuleTask extends sfPropelBaseTask
 {
+  protected $constants;
+
   /**
    * @see sfTask
    */
